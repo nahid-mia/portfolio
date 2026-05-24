@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="relative overflow-x-hidden bg-linear-to-br from-[#020617] via-[#0f172a] to-[#312e81] flex flex-col">
+      <body className="relative overflow-x-clip bg-linear-to-br from-[#020617] via-[#0f172a] to-[#312e81] flex flex-col">
 
         <div className="pointer-events-none absolute top-0 left-0 h-96 w-96 animate-[float_8s_ease-in-out_infinite] rounded-full bg-purple-500/20 blur-3xl"></div>
 
