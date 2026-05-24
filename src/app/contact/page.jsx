@@ -1,3 +1,6 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 export default function ContactPage() {
     return (
         <div className="min-h-screen bg-slate-900 text-gray-200 px-6 py-16 flex items-center justify-center">
@@ -94,8 +97,10 @@ export default function ContactPage() {
 
                     {/* Email Button */}
                     <a href="mailto:moh.nahidmia@gmail.com">
-                        <button className="px-5 py-2 rounded-md bg-linear-to-r from-cyan-400 to-blue-500 text-white hover:opacity-90 transition">
-                            Send Email
+                        <button className="px-5 flex items-center gap-2 py-2 rounded-md bg-linear-to-r from-cyan-400 to-blue-500 text-white hover:opacity-90 transition">
+                            <MdEmail />
+                            <span>Send Email
+                            </span>
                         </button>
                     </a>
 
@@ -105,8 +110,12 @@ export default function ContactPage() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="px-5 py-2 rounded-md border border-white/20 hover:bg-white/10 transition">
-                            GitHub
+                        <button className="px-5 flex items-center gap-2 py-2 rounded-md border border-white/20 hover:bg-white/10 transition">
+                            <FaGithub />
+                            <span>
+                                GitHub
+                            </span>
+
                         </button>
                     </a>
 
@@ -116,8 +125,11 @@ export default function ContactPage() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button className="px-5 py-2 rounded-md border border-white/20 hover:bg-white/10 transition">
-                            LinkedIn
+                        <button className="px-5 flex items-center gap-2 py-2 rounded-md border border-white/20 hover:bg-white/10 transition">
+                            <FaLinkedin />
+                            <span>
+                                LinkedIn
+                            </span>
                         </button>
                     </a>
 

@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="relative px-20 py-10 items-center justify-center  flex flex-col md:flex-row gap-10">
             <div className="absolute inset-0 bg-black/40" />
 
-            <div className="absolute w-90 h-150 bg-cyan-500/10 blur-3xl rounded-full" />
+            <div className="absolute w-90 h-180 bg-cyan-500/10 blur-3xl rounded-full" />
 
             <div className="relative z-10 backdrop-blur-xl bg-white/5 border border-white/10 p-5 rounded-2xl">
                 <div className='w-10/12 py-10 mx-auto'>

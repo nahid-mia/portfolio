@@ -8,7 +8,7 @@ import SlideInSection from './SlideAnimation';
 const CardBody = () => {
     return (
         <SlideInSection>
-            <div className='grid mb-15 mt-20 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 animate__animated  animate__backInRight'>
+            <div className='grid mb-15 mt-20 grid-cols-1 md:grid-cols-3 gap-10 animate__animated  animate__backInRight'>
                 <div className='card transition-transform duration-300 hover:scale-110 hover:-translate-y-1 relative z-10 text-gray-400 backdrop-blur-xl bg-white/5 border border-white/10 p-8 rounded-2xl'>
                     <div className='card-body transition-transform duration-300 hover:scale-110 hover:-translate-y-1'>
                         <div className='text-4xl'><FaAppStoreIos /></div>
