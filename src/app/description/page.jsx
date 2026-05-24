@@ -3,7 +3,7 @@ import React from 'react';
 
 const DescriptionPage = () => {
     return (
-        <div className="min-h-screen text-gray-200 flex flex-col-reverse md:flex-row items-center justify-center px-6 py-16 bg-linear-to-b from-slate-950 to-slate-900">
+        <div className="min-h-screen text-gray-200 flex flex-col-reverse md:flex-row items-center justify-center px-6 py-16 bg-linear-to-b from-slate-950 to-slate-900 gap-10">
 
             <div className="max-w-3xl space-y-6">
 
@@ -38,6 +38,14 @@ const DescriptionPage = () => {
                 </div>
 
                 <p>
+                    Beyond academics and programming, I enjoy playing chess during my free time, as it helps me improve strategic thinking and concentration.
+                </p>
+
+                <p>
+                    During my college years, I was actively involved in debate and public speaking, which helped me strengthen my communication, confidence, and leadership skills.
+                </p>
+
+                <p>
                     I am passionate about combining software development with data-driven thinking, and I continuously explore new technologies to improve my skills and build impactful projects.
                 </p>
 
@@ -46,9 +54,17 @@ const DescriptionPage = () => {
                 </p>
 
             </div>
+
             <div>
-                <Image src={'/assets/FB_IMG_1726150106958.jpg'} alt='Image of Nahid' width={400} height={500} className='rounded-full relative z-10'></Image>
+                <Image
+                    src={'/assets/FB_IMG_1726150106958.jpg'}
+                    alt='Image of Nahid'
+                    width={400}
+                    height={500}
+                    className='rounded-full relative z-10 object-cover border border-slate-700 shadow-2xl'
+                />
             </div>
+
         </div>
     );
 };
