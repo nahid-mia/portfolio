@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased overflow-x-clip`}
     >
       <body className="relative overflow-x-clip bg-linear-to-br from-[#020617] via-[#0f172a] to-[#312e81] flex flex-col">
 
